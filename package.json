@@ -5,13 +5,13 @@
   "type": "module",
   "license": "MIT",
   "author": "SohojxPay",
-  "homepage": "https://github.com/sohojxpay/sohojxpay-js#readme",
+  "homepage": "https://github.com/shahin-r71/sohojxpay-js/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sohojxpay/sohojxpay-js.git"
+    "url": "git+https://github.com/shahin-r71/sohojxpay-js.git"
   },
   "bugs": {
-    "url": "https://github.com/sohojxpay/sohojxpay-js/issues"
+    "url": "https://github.com/shahin-r71/sohojxpay-js/issues"
   },
   "keywords": [
     "sohojxpay",
