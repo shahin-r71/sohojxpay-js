@@ -9,17 +9,17 @@ This package is designed for trusted server-side integrations. It sends `x-servi
 ## Install
 
 ```bash
-npm install @sohojxpay/sdk
+npm install sohojxpay-sdk
 ```
 
 ```bash
-pnpm add @sohojxpay/sdk
+pnpm add sohojxpay-sdk
 ```
 
 ## Create Client
 
 ```ts
-import { createSohojxPayClient } from '@sohojxpay/sdk'
+import { createSohojxPayClient } from 'sohojxpay-sdk'
 
 const sohojxpay = createSohojxPayClient({
   baseUrl: 'https://your-sohojxpay-domain.com',
@@ -245,7 +245,7 @@ await sohojxpay.mfs.get('mfs-transaction-record-id')
 The SDK throws `SohojxPayApiError` for non-2xx responses.
 
 ```ts
-import { SohojxPayApiError } from '@sohojxpay/sdk'
+import { SohojxPayApiError } from 'sohojxpay-sdk'
 
 try {
   await sohojxpay.recharge.getDetails({ tranId: 'missing-id' })

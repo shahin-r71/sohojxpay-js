@@ -48,9 +48,6 @@
   "engines": {
     "node": ">=18"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "typescript": "^5.7.2"
   }

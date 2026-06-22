@@ -1,4 +1,4 @@
-import { createSohojxPayClient } from '@sohojxpay/sdk'
+import { createSohojxPayClient } from 'sohojxpay-sdk'
 
 const sohojxpay = createSohojxPayClient({
   baseUrl: process.env.SOHOJXPAY_BASE_URL!,
