@@ -1,0 +1,57 @@
+{
+  "name": "@sohojxpay/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for SohojxPay service-key APIs: recharge, bill payment, and MFS.",
+  "type": "module",
+  "license": "MIT",
+  "author": "SohojxPay",
+  "homepage": "https://github.com/sohojxpay/sohojxpay-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohojxpay/sohojxpay-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sohojxpay/sohojxpay-js/issues"
+  },
+  "keywords": [
+    "sohojxpay",
+    "recharge",
+    "bill-payment",
+    "mfs",
+    "bangladesh",
+    "sdk",
+    "typescript"
+  ],
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "node -e \"fs.rmSync('dist', { recursive: true, force: true })\"",
+    "pretest": "npm run build",
+    "test": "node --test test/*.test.mjs",
+    "check": "npm run build && npm test",
+    "prepublishOnly": "npm run check"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
