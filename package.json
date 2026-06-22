@@ -1,5 +1,5 @@
 {
-  "name": "@sohojxpay/sdk",
+  "name": "sohojxpay-sdk",
   "version": "0.1.0",
   "description": "TypeScript SDK for SohojxPay service-key APIs: recharge, bill payment, and MFS.",
   "type": "module",
